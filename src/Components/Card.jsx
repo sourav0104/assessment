@@ -4,7 +4,6 @@ import "./Style.css";
 
 const Card = () => {
 
-   const [cards, setCards] = useState([]);
    
   var userDetails = JSON.parse(localStorage.getItem("userDetails") || "[]");
   console.log(userDetails, "res");
@@ -13,6 +12,7 @@ const Card = () => {
     localStorage.removeItem("userDetails");
     window.location.reload();
   };
+
   // $(".hideclass").hide();
   return (
     <>
