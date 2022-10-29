@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      background:#ecf0f3;
+}
+.flex{
+    display: flex;
+    width:25rem;
+    margin-top: 30px;
+}
+.card-body{
+    width: 17rem;
+}
+.card{
+  
+    padding:30px;
+    width:350px;
+    box-shadow: -3px -3px 7px #ffffff,3px 3px 5px #ceced1;
+}
